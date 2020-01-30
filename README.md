@@ -1,2 +1,2 @@
 ## Deploying Django application to Heroku
-[Here]() is a medium article. 
+Here is a medium article. 
