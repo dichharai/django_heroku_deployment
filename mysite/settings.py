@@ -79,7 +79,7 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': os.environ.get('DB_NAME', '')
+        'NAME': os.environ.get('DB_NAME', ''),
         'USER': 'polls_psql_user',
         'PASSWORD': 'polls_psql_password',
         'HOST': '127.0.0.1',
